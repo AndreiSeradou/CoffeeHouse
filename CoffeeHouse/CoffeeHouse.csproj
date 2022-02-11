@@ -53,6 +53,12 @@
     <Compile Include="Data\Entity\Ingredients\CoffeeBeans.cs" />
     <Compile Include="Data\Entity\Ingredients\Milk.cs" />
     <Compile Include="Data\Entity\Ingredients\Syrup.cs" />
+    <Compile Include="Data\Interface\IApparatus.cs" />
+    <Compile Include="Data\Interface\IDessert.cs" />
+    <Compile Include="Data\Interface\IDrink.cs" />
+    <Compile Include="Data\Interface\IHuman.cs" />
+    <Compile Include="Data\Interface\IIngredient.cs" />
+    <Compile Include="Data\Interface\IRecipe.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -62,9 +68,7 @@
   <ItemGroup>
     <Folder Include="Data\Entity\Desserts\" />
     <Folder Include="Data\Entity\Drinks\" />
-    <Folder Include="Data\Entity\NewFolder1\" />
     <Folder Include="Data\Entity\Recipe\" />
-    <Folder Include="Data\Interface\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
