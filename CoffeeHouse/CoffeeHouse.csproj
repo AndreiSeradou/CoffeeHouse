@@ -43,19 +43,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\Conroller.cs" />
     <Compile Include="Data\Entity\Apparatus\CappuccinoMachine.cs" />
     <Compile Include="Data\Entity\Apparatus\CashRegister.cs" />
     <Compile Include="Data\Entity\Apparatus\CoffeeMachine.cs" />
     <Compile Include="Data\Entity\Apparatus\Fridge.cs" />
     <Compile Include="Data\Entity\CoffeeHouse\CoffeeHouse.cs" />
+    <Compile Include="Data\Entity\Dessert\CheeseeCake.cs" />
+    <Compile Include="Data\Entity\Dessert\Napaleon.cs" />
+    <Compile Include="Data\Entity\Dessert\Teramisu.cs" />
+    <Compile Include="Data\Entity\Drinks\Americano.cs" />
+    <Compile Include="Data\Entity\Drinks\Cappuchino.cs" />
+    <Compile Include="Data\Entity\Drinks\Latte.cs" />
     <Compile Include="Data\Entity\Human\Client.cs" />
     <Compile Include="Data\Entity\Human\Worker.cs" />
-    <Compile Include="Data\Entity\Ingredients\CoffeeBeans.cs" />
+    <Compile Include="Data\Entity\Ingredients\CoffeeBeam.cs" />
     <Compile Include="Data\Entity\Ingredients\Milk.cs" />
-    <Compile Include="Data\Entity\Ingredients\Syrup.cs" />
+    <Compile Include="Data\Entity\Ingredients\Syrop.cs" />
+    <Compile Include="Data\Entity\Recipe\Recipe.cs" />
     <Compile Include="Data\Interface\IApparatus.cs" />
     <Compile Include="Data\Interface\IDessert.cs" />
-    <Compile Include="Data\Interface\IDrink.cs" />
+    <Compile Include="Data\Interface\IDrinks.cs" />
     <Compile Include="Data\Interface\IHuman.cs" />
     <Compile Include="Data\Interface\IIngredient.cs" />
     <Compile Include="Data\Interface\IRecipe.cs" />
@@ -65,10 +73,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Data\Entity\Desserts\" />
-    <Folder Include="Data\Entity\Drinks\" />
-    <Folder Include="Data\Entity\Recipe\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

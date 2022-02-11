@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CoffeeHouse.Data.Entity.Ingredients;
+using CoffeeHouse.Data.Interface;
 
 namespace CoffeeHouse.Data.Entity.Apparatus
 {
-    internal class Fridge
+    internal class Fridge : IApparatus
     {
+        public Milk Milk { get; set; }
     }
 }

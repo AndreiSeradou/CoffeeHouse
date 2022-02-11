@@ -8,5 +8,8 @@ namespace CoffeeHouse.Data.Interface
 {
     internal interface IDessert
     {
+        string Name { get; set; }
+        int Count { get; set; }
+        int PeriodCooking { get; set; }
     }
 }

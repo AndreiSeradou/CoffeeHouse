@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CoffeeHouse.Data.Interface;
 
 namespace CoffeeHouse.Data.Entity.Apparatus
 {
-    internal class CashRegister
+    internal class CashRegister : IApparatus
     {
+        
     }
 }
